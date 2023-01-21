@@ -1,0 +1,19 @@
+fileignoreconfig:
+- filename: config/database.yml
+  checksum: 96969e379cdd95f8bb6aa880928d18cded91b79e46baab0f3b67c8f748a05c42
+- filename: config/environment.rb
+  checksum: d0c1b7ce8bcba5fd87145cbd81982f3ae77f7d653e47c8e1db807cfeb29d0267
+- filename: config/credentials.yml.enc
+  checksum: 465139a4b79056d646ba6128c56c79d05af8674737fa030fb9a3e6edb02d29ab
+- filename: config/initializers/filter_parameter_logging.rb
+  checksum: d22271e52e35de70962f220c552bebbe81c49370511d8d447accb2abbb99a1e6
+- filename: Gemfile
+  checksum: 1e428c1416c318fa021bd54ec46e7a9f2a192ed88f7654616a622459d342d7c0
+- filename: Dockerfile
+  checksum: d1ea3b809ea653e6183cbe65034e9a347f6f003d263d781bdae36e31826c177c
+- filename: config/storage.yml
+  checksum: 9bc94b1f2e214e78b41179a56ebeb546e469ec8f0ce3f507006678fcba89f02e
+- filename: docker-compose.yml
+  checksum: c47ba3eebce3e5846f0ab0fbf6317e3d69908def8c55cfaef9bc9141eab9865a
+version: ""
+

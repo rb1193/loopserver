@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    build: .
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app:rw
+    ports:
+      - "3000:3000"
+  db:
+    image: postgres:14.6
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data:rw
+    environment:
+      POSTGRES_PASSWORD: password
+    user: "501:20"
